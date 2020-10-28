@@ -5,5 +5,7 @@ def find_element_index(array, value_to_find)
     if ( element == value_to_find )
       return result
     end
+    result += 1
   end
+  nil
 end
